@@ -91,7 +91,10 @@ function flipACoin(call) {
     } else {
         result = 'lose'
     }
-    console.log(call);
+
+    return "{ call: '"+ call +"', flip: '"+ coinResult+"', result: '"+result+"' }"
+
+    
 }
 
 

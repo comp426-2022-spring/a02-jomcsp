@@ -5,7 +5,7 @@ let call= args[0].slice(7,(args[0].length));
 
 
 if (call === 'heads' || call === 'tails') {
-    flipACoin(call);
+    console.log(flipACoin(call));
 } else {
     console.log("Error: no or wrong input");
     console.log("Usage: node guess-flip --call=[heads|tails]"); 
