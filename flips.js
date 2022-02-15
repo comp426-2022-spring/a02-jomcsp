@@ -8,6 +8,6 @@ if (args.length > 0) {
     console.log(answer);
     console.log(countFlips(answer));
 } else {
-    let ans = [(coinFlip() + ":'1'")];
+    let ans = [(coinFlip() + ":1")];
     console.log(ans);
 }
